@@ -210,3 +210,41 @@ ul{
     margin: 0 auto;
     gap: 6px;
 }
+
+
+/* footer styles */
+footer{
+    padding: 120px;
+    padding-bottom: 30px;
+    background-color: #001931;
+}
+.footer-content{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links-container{
+    padding-right: 20px;
+}
+.social-links-container h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+footer hr{
+    border: none;
+    height: 1.5px;
+    background-color: #1C3247;
+}
+.copywrite-footer{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
