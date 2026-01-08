@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* navbar styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 120px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*  shared styles  */
+.btn-primary {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
