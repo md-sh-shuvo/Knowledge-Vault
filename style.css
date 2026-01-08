@@ -12,8 +12,23 @@
   font-style: normal;
 }
 
-/* navbar styles */
+/*  shared styles  */
+.btn-primary {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* navbar styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -27,18 +42,58 @@ ul{
     gap: 32px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: inherit;
+
+/* hero section styles */
+.hero{
+    background-image: url('assets/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 115px 120px 170px 120px;
+    text-align: center;
 }
-
-
-/*  shared styles  */
-.btn-primary {
+.early-access{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px;
+    background-color: white;
+    color: #469165;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 1000px;
+}
+.hero h1{
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.hero-h1-2nd{
+    color: #30B868;
+}
+.hero-description{
+    color: white;
+    font-size: 18px;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.hero-btns{
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.hero-btns button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hero-btn2{
     padding: 12px 16px;
     border-radius: 4px;
-    border: none;
-    background-color: #469165;
+    border: 1px solid white;
+    background-color: transparent;
     color: white;
     font-weight: 600;
     cursor: pointer;
