@@ -115,7 +115,7 @@ ul{
     padding: 60px 120px;
     background-color: #FBFBFB;
 }
-.notes h1{
+.notes h1, .second-brain h1{
     color: #001931;
     font-size: 48px;
     font-weight: bold;
@@ -125,7 +125,7 @@ ul{
     font-size: 24px;
     font-weight: 600px;
 }
-.notes p{
+.notes p, .second-brain p{
     color: #627382;
 }
 .card-container{
@@ -151,4 +151,34 @@ ul{
     background-color: #F95555;
     border-radius: 100%;
     margin: 0 auto;
+}
+
+
+/* second brain section styles */
+.second-brain{
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+}
+.second-brain h1{
+    margin: 16px 0;
+}
+.second-brain h3{
+    color: #30B868;
+    font-weight: 500;
+}
+.check-container{
+    margin: 40px 0;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 16px 0;
+}
+.second-brain-content{
+    margin: auto 0;
+}
+.second-brain-content-description{
+    max-width: 60%;
 }
