@@ -88,13 +88,13 @@ ul{
     margin: 0 auto;
     margin-bottom: 32px;
 }
-.hero-btns{
+.hero-btns, .early-access-sec button{
     display: flex;
     gap: 16px;
-    margin: 0 auto;
     width: fit-content;
+    margin: 0 auto;
 }
-.hero-btns button{
+.hero-btns button, .early-access-sec button{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -125,7 +125,7 @@ ul{
     font-size: 24px;
     font-weight: 600px;
 }
-.notes p, .second-brain p{
+.notes p, .second-brain p, .early-access-sec p{
     color: #627382;
 }
 .card-container{
@@ -181,4 +181,32 @@ ul{
 }
 .second-brain-content-description{
     max-width: 60%;
+}
+
+.early-access-sec{
+    margin: 120px;
+    margin-top: 0px;
+    padding: 80px 0;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    text-align: center;
+}
+.early-access-sec h1{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.early-access-sec button{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.early-access-sec ul{
+    display: flex;
+}
+.ending-message-container{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 6px;
 }
