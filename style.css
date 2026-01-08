@@ -98,3 +98,47 @@ ul{
     font-weight: 600;
     cursor: pointer;
 }
+
+/* notes section style */
+.notes{
+    text-align: center;
+    padding: 60px 120px;
+    background-color: #FBFBFB;
+}
+.notes h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.notes h2{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.notes p{
+    color: #627382;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+    border: 2px solid #F7F7F7;
+    border-radius: 8px;
+    margin-top: 45px;
+}
+.card-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    margin: 0 auto;
+}
